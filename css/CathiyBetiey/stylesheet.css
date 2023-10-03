@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Cathiy Betiey';
+    src: url('CathiyBetiey.eot');
+    src: local('Cathiy Betiey'), local('CathiyBetiey'),
+        url('CathiyBetiey.eot?#iefix') format('embedded-opentype'),
+        url('CathiyBetiey.woff2') format('woff2'),
+        url('CathiyBetiey.woff') format('woff'),
+        url('CathiyBetiey.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
