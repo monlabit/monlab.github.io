@@ -367,17 +367,14 @@ a {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.desktop{
+    position: relative;
+}
+
 .lingua{
-    max-width: 950px;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: auto;
-    margin-left: auto;
-    align-content: flex-start;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-top: -30px;
-    font-variant: small-caps;
+    position: absolute;
+    top: 40%;
 }
 
 
@@ -411,6 +408,11 @@ a {
     .desktop {
         display: none;
     }
+        .lingua {
+            position: absolute;
+            top: 30%;
+            right: 10%;
+        }
 
     .menu-desktop {
         display: none;
@@ -418,6 +420,7 @@ a {
 
     .mobile {
         display: block;
+        position: relative;
     }
 
     /* Menu Icon */
